@@ -1,0 +1,155 @@
+<!-- Scholarship Application -->
+<!-- <p>Please fill out the form below to apply for a scholarship.</p> -->
+
+<!-- <p>In addition to completing and submitting this form, you will need to ask an academic advisor to fill out <a href="/scholarship-support"><strong>this similar form</strong></a>. Your application will not be considered until we receive a letter of support.</p> -->
+  
+<h4>The deadline to apply is June 17th.</h4>
+
+<p>If you submitted an application for the second batch of 12, those are currently being processed, and results will be released soon.</p>
+
+<!--
+
+<p>If you have a reasonably modern browser, your work-in-progress will be saved in local storage (on your computer). Until you click "Submit," though, your application is not complete.</p>
+
+<div id="form">
+  <div id="Name">
+    <label>Your name:</label>
+    <div><input type="text" /></div>
+  </div>
+  <div id="Email_address">
+    <label>Email address:</label>
+    <div><input type="text" /></div>
+  </div>
+  <div id="Institution">
+    <label>Institution:</label>
+    <div><input type="text" /></div>
+  </div>
+  <div id="Department">
+    <label>Department:</label>
+    <div><input type="text" /></div>
+  </div>
+  <div id="Current_academic_status">
+    <label>Current academic status:</label>
+    <div><input type="radio" name="rad001" id="rad001a"> <label for="rad001a">undergrad</label></div>
+    <div><input type="radio" name="rad001" id="rad001b"> <label for="rad001b">graduate</label></div>
+    <div><input type="radio" name="rad001" id="rad001c"> <label for="rad001c">postdoc</label></div>
+    <div><input type="radio" name="rad001" id="rad001d"> <label for="rad001d">other:</label> <input type="text" /></div>
+  </div>
+  <div id="Current_academic_progress">
+    <label>Current academic progress:</label>
+    <select>
+      <option>- - Select One - -</option>
+      <option>1st year</option>
+      <option>2nd year</option>
+      <option>3rd year</option>
+      <option>4th year</option>
+      <option>5th year</option>
+      <option>6th year</option>
+      <option>7th year</option>
+      <option>8th year</option>
+      <option>Other</option>
+    </select>
+    <div><label>Other:</label> <input type="text" /></div>
+  </div>
+  <div id="What_other_sources">
+    <label>What other sources are you applying to for funding?</label>
+    <div><input type="text" /></div>
+  </div>
+  <div id="Itemize_your_estimated_travel_expenses">
+    <label>Itemize your estimated travel expenses (e.g. airfare $250, accommodation $300):</label>
+    <div><textarea cols="60" rows="3"></textarea></div>
+  </div>
+  <div id="The_scholarship_includes_accommodation">
+    <p>Paper or plastic?</p>
+    <div><input type="radio" name="rad002" id="rad002a"> <label for="rad002a">Paper</label></div>
+    <div><input type="radio" name="rad002" id="rad002b"> <label for="rad002b">Plastic</label></div>
+  </div>
+  <div id="Describe_briefly_why_NASSLLI_is_relevant">
+    <label>Describe briefly why NASSLLI is relevant to your studies and academic goals (200 word maximum):</label>
+    <div><textarea cols="60" rows="10"></textarea></div>
+  </div>
+  <div id="Name_of_person_submitting_reference">
+    <label>Name of person submitting reference:</label>
+    <div><input type="text" /></div>
+  </div>
+  <div id="Email_address_of_person_submitting_reference">
+    <label>Email address of person submitting reference:</label>
+    <div><input type="text" /></div>
+  </div>
+  <div id="Any_other_comments">
+    <label>Any other comments:</label>
+    <div><textarea cols="60" rows="5"></textarea></div>
+  </div>
+</div>
+<input type="button" id="submit" value="Submit" />
+
+<p id="submit_result"></p>
+
+<p>You will not immediately receive notice of receipt, but we will try to send notices to applicants as we receive their applications and their supporting letters.</p>
+
+<p>If you have any trouble with the form above, please email us at <strong>nasslli@nasslli2012.com</strong>.</p>
+
+-->
+
+<script type="text/javascript" src="/js/jquery.forms.js"></script> 
+<script>
+  function loadLocalStorage() {
+    $('#form > div').each(function(i, el) {
+      $(el).find('input').val(localStorage[el.id]);
+      $(el).find('textarea').val(localStorage[el.id]);
+    });
+  }
+
+  $(function() {
+    loadLocalStorage();
+    
+    $('input').keyup(function() {
+      var id = $(this).parents('div[id]').attr('id');
+      localStorage[id] = $(this).val();
+    });
+    $('textarea').keyup(function() {
+      var id = $(this).parents('div[id]').attr('id');
+      localStorage[id] = $(this).val();
+    });
+    $('#submit').click(function() {
+      var result = parseLooseForm($('#form'));
+      $.ajax({
+        type: 'POST',
+        url: '/forms/scholarships/application',
+        contentType: 'application/json',
+        data: JSON.stringify(result),
+        success: function(data, textStatus) {
+          if (console && console.log)
+            console.log(data);
+          $('#submit_result').html("Result: <b>" + data.message + "</b>");
+          if (data.success) {
+            $('#form > div').each(function(i, el) {
+              localStorage[el.id] = '';
+            });
+            loadLocalStorage();
+          }
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+          $('#submit_result').html("Error: <b>" + errorThrown + "</b>");
+        },
+        dataType: 'json'
+      });
+    });
+  });
+  
+  function test() {
+    $('#Name input').val('Chris Brown');
+    $('#Email_address input').val('audiere@gmail.com');
+    $('#Institution input').val('UT Austin');
+    $('#Department input').val('Linguistics');
+    $('#Current_academic_status input:eq(1)').click();
+    $('#Current_academic_progress input').val('Leave of absence');
+    $('#What_other_sources input').val('Parents');
+    $('#Itemize_your_estimated_travel_expenses textarea').val('Not a whole lot else');
+    $('#The_scholarship_includes_accommodation input:eq(1)').click();
+    $('#Describe_briefly_why_NASSLLI_is_relevant textarea').val('It is super awesome, that is why.');
+    $('#Name_of_person_submitting_reference input').val('Mark');
+    $('#Email_address_of_person_submitting_reference input').val('mark@email.utexas.edu');
+    $('#Any_other_comments textarea').val('Pretty pretty please!');
+  }
+</script>

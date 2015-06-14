@@ -1,0 +1,85 @@
+<!-- Scholarship Support -->
+<p>Please fill out the form below to support a scholarship application.</p>
+
+<h4>The deadline for all scholarship application material (including this support letter) is February 29th</h4>
+
+<div id="form">
+  <div id="Name">
+    <label>Your name:</label>
+    <div><input type="text" /></div>
+  </div>
+  <div id="Email_address">
+    <label>Email address:</label>
+    <div><input type="text" /></div>
+  </div>
+  <div id="Student_name">
+    <label>The name of the applicant you are writing to support:</label>
+    <div><input type="text" /></div>
+  </div>
+  <div id="Student_email_address">
+    <label>Their email address (in case it's necessary to disambiguate two applicants with similar names):</label>
+    <div><input type="text" /></div>
+  </div>
+  <div id="Please_describe_why_NASSLLI_would_benefit">
+    <label>Please describe why NASSLLI would benefit this applicant:</label>
+    <div><textarea cols="60" rows="10"></textarea></div>
+  </div>
+  <div id="Any_other_comments">
+    <label>Any other comments:</label>
+    <div><textarea cols="60" rows="5"></textarea></div>
+  </div>
+</div>
+
+<input type="button" id="submit" value="Submit" />
+
+<p id="submit_result"></p>
+
+<p>You will not immediately receive notice of receipt, but we will try to send notices to applicants and support letter writers as we go through the applications. In case you are interested, the application form is here: <a href="/scholarships"><strong>scholarship application</strong></a></p>
+
+<p>If you have any trouble with the form above, please email us at <strong>nasslli@nasslli2012.com</strong>.</p>
+
+<script type="text/javascript" src="/js/jquery.forms.js"></script> 
+<script>
+  function loadLocalStorage() {
+    $('#form > div').each(function(i, el) {
+      $(el).find('input').val(localStorage[el.id]);
+      $(el).find('textarea').val(localStorage[el.id]);
+    });
+  }
+
+  $(function() {
+    loadLocalStorage();
+    
+    $('input').keyup(function() {
+      var id = $(this).parents('div[id]').attr('id');
+      localStorage[id] = $(this).val();
+    });
+    $('textarea').keyup(function() {
+      var id = $(this).parents('div[id]').attr('id');
+      localStorage[id] = $(this).val();
+    });
+    
+    $('#submit').click(function() {
+      var result = parseLooseForm($('#form'));
+      $.ajax({
+        type: 'POST',
+        url: '/forms/scholarships/support',
+        contentType: 'application/json',
+        data: JSON.stringify(result),
+        success: function(data, textStatus) {
+          $('#submit_result').html("Result: <b>" + data.message + "</b>");
+          if (data.success) {
+            $('#form > div').each(function(i, el) {
+              localStorage[el.id] = '';
+            });
+            loadLocalStorage();
+          }
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+          $('#submit_result').html("Error: <b>" + errorThrown + "</b>");
+        },
+        dataType: 'json'
+      });
+    });
+  });
+</script>
