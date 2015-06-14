@@ -1,0 +1,849 @@
+---
+courses:
+  - name: Logical Dynamics of Information and Interaction
+    slug: logical-dynamics
+    slot: 2
+    subject: logic
+    description: >
+      We will present some basic dynamic logics that analyze information-driven rational agency. Specific topics will be: information update, belief revision, inference and questions, preference change, temporal logic, and games. The course includes applications in philosophy, computer science, and game theory, and the readings will provide many pointers to current research.
+      <p> NOTE: Johan van Benthem, who was due to co-teach this class, has unfortunately had to cancel his trip to Austin at the last minute.</p>
+    prerequisites: "basic first-order logic, basic modal logic"
+    preparation: >
+      The course will use material from J. van Benthem, 2010, "Modal Logic for Open Minds", CSLI Publications, Stanford, 2011, especially the chapters on agency: Chs 12 -- 17. For background, see the introductory chapter to "Logical Dynamics of Information and Interaction", Cambridge University Press, 2011.
+    syllabus: >
+      <ol>
+        <li>epistemic logic and information update</li>
+        <li>dynamic logics for belief revision</li>
+        <li>inference, questions, and preference change</li>
+        <li>temporal logic of long-term action</li>
+        <li>social interaction and games.</li>
+      </ol>
+    url: "http://sonja.tiddlyspot.com/#NASSLLI-2012"
+    professors:
+      - name: Alexandru Baltag
+        institution: "Institute of Logic, Language and Computation (ILLC), University of Amsterdam"
+        email: thealexandrubaltag@gmail.com
+        url: http://alexandru.tiddlyspot.com/
+        photo: alexandru-baltag.jpg
+        bio: >
+          Alexandru Baltag is an Associate Professor at the Institute for Logic, Language and Computation (University of Amsterdam).  He is known mostly for his work in logics for multi-agent information flow (-- he was one of the originators of dynamic epistemic logic) and their applications to communication, game theory, quantum computation etc.  Between 2001 and 2011 he was a University Lecturer at Oxford University, in the Department of Computer Science. Between 1998 and 2001, he was a post-doctoral researcher at the Dutch Center for Mathematics and Computer Science. He obtained his PhD in Mathematics in 1998 at Indiana University under the supervision of Jon Barwise.
+      - name: Sonja Smets
+        email: sonsmets@gmail.com
+        url: "http://sonja.tiddlyspot.com/"
+        photo: sonja-smets.jpg
+        institution: "Institute of Logic, Language and Computation (ILLC), University of Amsterdam"
+        bio: >
+          Sonja Smets is an associate professor at the Institute for Logic, Language and Computation at the University of Amsterdam. Between 2009 and 2012 she was as an assistant professor at the University of Groningen where she held a Rosalind Franklin Research Fellowship. Between 2001 and 2009, she was a post-doctoral researcher and lecturer at the Free University of Brussels. She obtained her PhD at the Free University of Brussels in 2001. In 2009, she received a VIDI award and in 2011 she received and ERC starters grant.  Her research programme ranges over Logic (in particular non-classical logics, including non-monotonic logics, belief revision, modal and temporal logic, quantum logic); Multi-agent Systems; Formal Epistemology; Philosophy of Science, Philosophy of Quantum Physics, Quantum Information and Computation.
+
+  - name: Questions in Discourse
+    slug: questions-in-discourse
+    slot: 1
+    subject: semantics
+    description: >
+      <p>Over the past 17 years, a good bit of work on discourse in Linguistics and Philosophy of Language presumes that a central pragmatic factor driving and constraining interpretation is the Question Under Discussion (QUD). The idea is central in the work of Ginzburg, van Kuppevelt and Roberts, and plays a part in work by Beaver, Büring, Jasinskaja, Kadmon, Pollard, Portner, van Rooij, Simons, and Zeevat, and their collaborators, inter alia; is closely related to the Inquisitive Semantics of Groenendijk and his colleagues; and is reflected more recently in an increasingly broad range of psycholinguistic research. This thread is also closely related to the extensive work on Planning Theory in AI (e.g. Cohen, Grosz & Sidner, Perrault, Stone, Thomason).
+      </p>
+      <p>This course will give students some background in the basic concepts and empirical motivation for this approach to discourse pragmatics, and suggest links to other theories of discourse, including those involving Rhetorical Structure Theory (like the SDRT of Asher and Lascarides, and the Coherence Theory of Kehler) and game theory (as in the work of philosophers like van Rooij). It will consist of five hours of lecture and discussion, including the following topics:
+        <ul>
+          <li>Basic empirical motivations: What kinds of problems in discourse pragmatics might benefit from the use of something like questions under discussion? As this is a very wide range of topics, we will focus mainly on anaphora resolution, focus, and presupposition projection, but will also include some discussion of the role of discourse particles in organizing and clarifying discourse.
+          </li>
+          <li>Basic concepts: What are questions and what role do they play in context? How are questions modeled in some of the theories of interest? How are theories involving the QUD related to classic theories of linguistic context, including the Common Ground-based contexts of Stalnaker, Kaplan’s contexts assigning values to dedicated indexicals, and theories using assignment functions or discourse referents for modeling constraints on anaphora resolution? How are questions in discourse related to alternative semantics, to the plans and goals assumed in Planning Theory?
+          </li>
+          <li>What does the QUD buy us from an explanatory point of view? How does the work which assumes its centrality in discourse essentially improve on earlier models of discourse context in linguistics and philosophy of language?
+          </li>
+        </ul>
+      </p>The goal of the course is to introduce students to the central issues and give a very brief overview of the literature and empirical results.
+      <p>
+      </p>
+    prerequisites: >
+      Students should understand the basics of formal, compositional semantics. And they should have a grasp of some of the basic topics in pragmatics, especially formal pragmatics and its relationship to dynamic theories of interpretation. Useful guides to the latter might be the papers in Steven Davis' (1991) <em>Pragmatics: A reader</em>; Nirit Kadmon's (2001) <em>Formal Pragmatics</em>; Lawrence Horn and Gregory Ward's (2006) <em>The Handbook of Pragmatics</em>; and papers in the bibliographic links associated with the topics at: <a href="http://www.ling.ohio-state.edu/~croberts/QUDbib/">http://www.ling.ohio-state.edu/~croberts/QUDbib/</a>.
+    files: >
+      <ul>
+        <li><a href="/files/courses/roberts-syllabus.pdf">Syllabus</a>
+        <li><a href="/files/courses/roberts-lecture-1.pdf">Lecture 1</a>
+        <li><a href="/files/courses/roberts-lecture-2.pdf">Lecture 2</a>
+        <li><a href="/files/courses/beaver-slides.pdf">Lecture 3</a> (David Beaver)
+        <li><a href="/files/courses/roberts-lecture-4.pdf">Lecture 4</a>
+        <li><a href="/files/courses/tonhauser-et-al-taxonomy-of-projective-content.pdf">Towards a taxonomy of projective content</a> (Tonhauser et al.)
+      </ul>
+    professors:
+      - name: Craige Roberts
+        institution: The Ohio State University
+        photo: craige-roberts.jpg
+        url: http://www.ling.ohio-state.edu/~croberts/
+        bio: >
+          Craige Roberts is Professor of Linguistics at The Ohio State University. She specializes in formal semantics and pragmatics and her principal research interests are in:
+          <ul>
+          <li>Anaphora, definiteness, and specificity</li>
+          <li>Formal models of context in interpretation: Presupposition, focus, implicature, perspective, and domain restriction</li>
+          <li>The semantics and pragmatics of modality, mood, tense, and aspect</li>
+          </ul>
+          As a student Craige studied under Barbara H. Partee at the University of Massachusetts at Amherst. She then held a postdoctoral fellowship at CSLI at Stanford where she was exposed to interdisciplinary work on pragmatics in the tradition of Grice, and work on Planning Theory in AI. Her work on pragmatics is driven by her interest in the nature of the human mind, and it has resulted in a deepening dialogue with colleagues in computer science, logic, philosophy, and psychology. She is involved in an interdisciplinary Pragmatics Initiative at The Ohio State University and is currently collaborating with David Beaver, Mandy Simons, and Judith Tonhauser on the NSF-funded project Projective Meanings: presupposition, conventional implicature, and other non-assertoric aspects of utterance meaning.
+
+  - name: Stochastic Lambda Calculus and its Applications in Cognitive Science
+    slug: stochastic-lambda-calculus
+    slot: 1
+    subject: philosophy
+    description: >
+      <p>Logic and probability are key themes of cognitive science that have long had an uneasy coexistence. This course will introduce the stochastic lambda calculus, an extension of the standard lambda calculus into a system with probabilistic semantics. This provides a mathematical foundation for uniting logic and probability: compositional languages, that support reasoning by probabilistic inference. This general framework is realized in the probabilistic programming language Church, which we will use for hands on examples throughout the class.</p>
+      <p>We will use Church to explore the basic principles of inference over structured probabilistic models, as they are relevant to modeling human cognition. These include explaining-away, the Bayesian Occam's razor, and learning-to-learn in hierarchical Bayesian models. Examples will be draw from various domains in cognitive science, including causal learning and language. We will then cover highlights from current frontiers in Bayesian modeling, including models of social cognition and rational process-level models. We will end with applications to natural language semantics and pragmatics.</p>
+    prerequisites: none (but basic familiarity with probability and programming will help)
+    url: http://projects.csail.mit.edu/church/wiki/Probabilistic_Models_of_Cognition
+    professors:
+      - name: Noah Goodman
+        institution: Stanford University
+        email: ngoodman@stanford.edu
+        url: http://www.stanford.edu/~ngoodman/
+        photo: noah-goodman.jpg
+        bio: >
+          Noah D. Goodman is Assistant Professor of Psychology, Linguistics (by courtesy), and Computer Science (by courtesy) at Stanford University. He studies the computational basis of human thought, merging behavioral experiments with formal methods from statistics and logic. Specific projects vary from concept learning and language understanding to inference algorithms for probabilistic programming languages. He received his Ph.D. in mathematics from the University of Texas at Austin in 2003. In 2005 he entered cognitive science, working as Postdoc and Research Scientist at MIT. In 2010 he moved to Stanford where he runs the Computation and Cognition Lab.
+
+  - name: Combinatory Categorial Grammars for Robust Natural Language Processing
+    slug: combinatory-categorial-grammar
+    slot: 4
+    subject: semantics
+    syllabus: >
+      <ul>
+        <li>I: Combinatory Categorial Grammar
+        <li>II: Wide Coverage Parsing with CCG
+        <li>III: The <em>Statistical</em> Problem of Language Acquisition
+        <li>IV: Towards a Robust Semantics
+        <li>V: The Surface Compositional Semantics of Intonation and Information Structure
+      </ul>
+    files: >
+      <h4><a href="/files/courses/ccg-slides.pdf">Course slides (complete)</a></h4>
+    professors:
+      - name: Mark Steedman
+        institution: University of Edinburgh
+        photo: mark-steedman.jpg
+        bio: >
+          <p>Mark Steedman is Professor of Cognitive Science in the School of Informatics at the University of Edinburgh, where he moved in 1998 from the University of Pennsylvania, where he taught as Professor in the Department of Computer and Information Science. He is a Fellow of the British Academy, the Royal Society of Edinburgh, and the American Association for Artificial Intelligence.</p><p>His research covers a range of problems in computational linguistics, artificial intelligence, computer science, and cognitive science, including syntax and semantics of natural language, and parsing and comprehension of natural language discourse by humans and by machine using Combinatory Categorial Grammar (CCG). Much of his current NLP research concerns wide-coverage parsing for robust semantic interpretation and natural language inference. Some of his research concerns the analysis of music by humans and machines. His most recent book is "Taking Scope", with MIT Press.</p>
+
+  - name: Extracting Social Meaning and Sentiment
+    slug: extracting-social-meaning
+    slot: 3
+    subject: compling
+    description: The course will review central results from linguistics and cognitive psychology concerning the dimensions of affectivity and the ways in which attitudinal and emotional information is expressed in language. It will then focus on the computational extraction of such information from textual data using supervised and unsupervised methods. Special emphasis will be placed on bringing social and contextual information into the models and designing features that capture non-literal uses of language.
+    prerequisites: "None, though students with programming skills will be happier and more productive in the class. Students can write to me with tips about how to prepare effectively."
+    preparation: >
+      Students could study these materials and play around with the demos:
+      <a href="http://sentiment.christopherpotts.net/">http://sentiment.christopherpotts.net/</a>
+    syllabus: >
+      <ol>
+        <li>Background and goals: the linguistic and computational challenges of sentiment and social meaning; applications of sentiment analysis in academia and industry</li>
+        <li>Introduction to course data sets; text preparation for sentiment analysis (tokenizing, parsing, contextual features)</li>
+        <li>Supervised methods for sentiment analysis; the importance of modeling the blended, continuous nature of sentiment</li>
+        <li>Characterizing and modeling non-literal language</li>
+        <li>Unsupervised methods for sentiment; wrap-up</li>
+      </ol>
+    url: http://nasslli2012.christopherpotts.net/
+    professors:
+      - name: Christopher Potts
+        institution: Stanford University
+        email: |
+          <script type='text/javascript'>
+          <!--
+          { document.write(String.fromCharCode(60,97,32,104,114,101,102,61,39,109,97,105,108,116,111,58,99,103,112,111,116,116,115,64,115,116,97,110,102,111,114,100,46,101,100,117,39,62,99,103,112,111,116,116,115,64,115,116,97,110,102,111,114,100,46,101,100,117,60,47,97,62))
+          } //-->
+          </script><noscript>cgpotts on the server stanford.edu</noscript>
+        url: http://www.stanford.edu/~cgpotts/
+        photo: christopher-potts.jpg
+        bio: >
+          Christopher Potts is Associate Professor of Linguistics at Stanford University. In his research, he uses computational methods to explore how emotion is expressed in language and how linguistic production and interpretation are influenced by the context of utterance. He is the author of the 2005 book The Logic of Conventional Implicatures, as well as numerous scholarly papers in computational and theoretical linguistics. In his free time, he enjoys running, cycling, and skateboarding.
+
+  - name: "Possible Worlds: A Course in Metaphysics (for Computer Scientists and Linguists)"
+    slot: 4
+    subject: philosophy
+    slug: possible-worlds
+    description: >
+      This course draws on science fiction stories and films, as well as readings in contemporary metaphysics, to introduce and explore key issues concerning time, causation and possibility. These three fundamental structuring concepts of human thought have &lsquo;faces&rsquo; in many disciplines of interest to NASSLLI participants (e.g., linguistics, logic and knowledge representation), but philosophical treatment of them arguably has a unique perspective to offer. Questions covered will include: &ldquo;Is time travel possible?&rdquo;, &ldquo;What makes now now?&rdquo;, &ldquo;Is backwards causation possible and if not, does that make fatalism true?&rdquo;, &ldquo;What makes statements about possibility true or false, anyway?&rdquo; Philosophers generally approach such questions by closely examining, analysing, and (last but not least) imaginatively exploring their underlying concepts in &lsquo;thought-experiments&rsquo;. This is the course's main methodology, though links will also be made via possible worlds semantics with some easy modal logic.
+    prerequisites: Basic logic. Interest in philosophical discussion. Imagination.
+    preparation: >
+      <ul>
+      <li>David Lewis: <a href="http://www.csus.edu/indiv/m/merlinos/Paradoxes%20of%20Time%20Travel.pdf">&ldquo;The Paradoxes of Time Travel&rdquo;</a>, in Philosophical Papers, vol. II (Oxford: OUP, 1986), pp. 67-80.</li>
+      <li>Ray Bradbury: <a href="http://www.onebee.com/writing/2005/07/sound_of_thunder">&ldquo;A Sound of Thunder&rdquo;</a>, in A Sound of Thunder and Other Stories (Harper, 2005), and other collections.</li>
+      <li>Robert Heinlein: <a href="http://www.xs4all.nl/~pot/scifi/byhisbootstraps.pdf">&ldquo;By His Bootstraps&rdquo;</a>, in Astounding Science Fiction (Dover 1941), and other collections.</li>
+      </ul>
+    files: >
+      <h4>Powerpoint</h4>
+      <ul>
+        <li><a href="/files/courses/possible-worlds-day-1.pptx">Slides: Day 1</a>
+        <li><a href="/files/courses/possible-worlds-day-2.pptx">Slides: Day 2</a>
+        <li><a href="/files/courses/possible-worlds-day-3.pptx">Slides: Day 3</a>
+        <li><a href="/files/courses/possible-worlds-day-4.pptx">Slides: Day 4</a>
+        <li><a href="/files/courses/possible-worlds-day-5.pptx">Slides: Day 5</a>
+      </ul>
+      <h4>PDF</h4>
+      <ul>
+        <li><a href="/files/courses/possible-worlds-day-1.pdf">Slides: Day 1</a>
+        <li><a href="/files/courses/possible-worlds-day-2.pdf">Slides: Day 2</a>
+        <li><a href="/files/courses/possible-worlds-day-3.pdf">Slides: Day 3</a>
+        <li><a href="/files/courses/possible-worlds-day-4.pdf">Slides: Day 4</a>
+        <li><a href="/files/courses/possible-worlds-day-5.pdf">Slides: Day 5</a>
+      </ul>
+    url:
+    professors:
+      - name: Catherine Legg
+        institution: University of Waikato
+        email: clegg@waikato.ac.nz
+        url: http://waikato.academia.edu/CathyLegg
+        photo: catherine-legg.jpg
+        bio: >
+          Catherine Legg holds a BA (hons) from University of Melbourne, an MA in Philosophy from Monash University and a PhD from ANU, where her thesis (&ldquo;Modes of Being&rdquo;) concerned Charles Peirce's philosophical categories. After a spell of hands-on ontological engineering in the early years of this century she returned to academia and now teaches at the University of Waikato in New Zealand. Her current research bridges philosophy of language, logic, ontology and AI, with a side interest in &lsquo;cat metaphysics&rsquo;.
+
+  - name: Statistical Machine Translation
+    slug: statistical-machine-translation
+    slot: 2
+    subject: compling
+    description: >
+      Google translate can instantly translate between any pair of over fifty human languages (for instance, from French to English). How does it do that? Why does it make the errors that it does? And how can you build something better? Modern translation systems *learn* how to translate by reading millions of words of already translated text, and this course will show you how they work. Despite demonstrable success over the last decade, much work remains to be done, so we will also identify open questions at the heart of current research, as well as computational and linguistic insights that may help solve them. The course covers a diverse set of fundamental building blocks from linguistics, machine learning, algorithms, data structures, and formal language theory, along with their application to a real and difficult problem in artificial intelligence.
+
+    syllabus: >
+      <ol>
+        <li>An introduction to statistical machine translation: how can
+        machines learn to translate?</li>
+        <li>Probabilistic modeling, language models, and finite-state
+        translation models based on words.</li>
+        <li>Finite-state translation models based on phrases, and
+        decoding of finite-state models.</li>
+        <li>Context-free models and their decoding algorithms, and
+        unsupervised learning of translation models.</li>
+        <li>Evaluation and supervised learning of translation models.</li>
+      </ol>
+
+    url: http://www.cs.jhu.edu/~alopez/nasslli2012.html
+    professors:
+      - name: Adam Lopez
+        institution: Johns Hopkins University
+        email: alopez@cs.jhu.edu
+        url: http://www.cs.jhu.edu/~alopez/
+        photo: adam-lopez.jpg
+        bio: >
+          Adam Lopez is a research scientist at Johns Hopkins University in the Human Language Technology Center of Excellence. His research and teaching focus on technology that will break the language barrier, in particular systems that learn how to translate from vast amounts of data (like Google Translate); his work draws on core ideas from algorithms, machine learning, formal language and automata theory, and computational linguistics. Previously he was a research fellow in the machine translation research group at the University of Edinburgh, where he moved after earning his Ph.D. in computer science from the University of Maryland.
+
+  - name: Social Choice Theory for Logicians
+    slug: social-choice-theory
+    slot: 4
+    subject: logic
+    description: >
+      Social Choice Theory is the formal analysis of collective decision making. A growing number of logical systems incorporate insights and ideas from this important field. This course will introduce the key results (including proofs) and the main research themes of Social Choice Theory. The primary objective is to introduce the main mathematical methods and conceptual ideas found in the Social Choice literature. I will also pay special attention to recent logical systems that have been developed to reason about group decision making and how social choice-style analyses are being used by logicians. The course will not only provide a broad overview of the field of Social Choice from a logicians perspective, but will also discuss key technical results of particular interest to logicians. The main goal is to provide a solid foundation for students that want to incorporate results and ideas from Social Choice Theory into their field of study.
+    prerequisites: >
+      Basic (modal) logic would be helpful, but not necessary.   The course only requires some mathematical maturity (I will be going through some proofs).
+    preparation: See the course website.
+    url: http://ai.stanford.edu/~epacuit/classes/nasslli2012/logsoc.html
+    files: >
+      <ul>
+        <li><a href="/files/courses/social-choice-theory-handout1.pdf">
+          Social Choice Theory Handout #1</a></li>
+      </ul>
+    professors:
+      - name: Eric Pacuit
+        institution: Tilburg University
+        email: e.j.pacuit@uvt.nl
+        url: http://ai.stanford.edu/~epacuit
+        photo: eric-pacuit.jpg
+        bio: >
+          Eric Pacuit is a  resident fellow at the Tilburg Institute for Logic and Philosophy of Science at Tilbrug University and an Assistant Professor in the Department of Philosophy at the University of Maryland, College Park. Eric received his Ph.D. in computer science from the The Graduate Center of the City University of New York. Previous academic positions include a postdoctoral researcher at the Institute for Logic, Language and Computation at the University of Amsterdam and in the Departments of Philosophy and Computer Science at Stanford University. Eric's primary research interests are in logic, game theory and formal epistemology. Currently, his research is focused on logics of rational agency and foundational issues in game theory and social choice theory. This research is supported by a Vidi grant from NWO called 'A Formal Analysis of Social Procedures' from 2009-2014. In addition, Eric has taught many courses on logic (especially modal logic) and formal epistemology.  For more information, visit his webpage (http://ai.stanford.edu/~epacuit).
+
+  - name: Introduction to Category Theory
+    slug: introduction-to-category-theory
+    slot: 3
+    subject: logic
+    description: >
+      In this course, we will teach category theory from first principles with an eye towards its applications both to the theory of functional programming languages as well as to its use in the semantics of natural language. For the latter weconsider especially the approach to the syntax semantics interface known as Glue Language, but we do not expect to cover these applications in any detail.
+      <p> NOTE: Ulrik Buchholtz, who was due to co-teach this class, has unfortunately had to cancel his trip to Austin. </p>
+    files: >
+      <a href="/files/courses/introduction-to-category-theory-hw-1.pdf">Category Theory for All: Homework 1</a>
+    prerequisites: >
+      We expect students to have some level of mathematical maturity and to like algebraic structures, but only superficial contact with discrete mathematics, notions of logic and functional programming will be required.
+    preparation: >
+      <p>We will go over some of the material in J. Gallier's Constructive Logics. Part I: A Tutorial on Proof Systems and Typed lambda-Calculi. Theoretical Computer Science, 110(2), 249-239 (1993). Available from: <a href="http://www.cis.upenn.edu/~jean/gallier-old-pubs.html">http://www.cis.upenn.edu/~jean/gallier-old-pubs.html</a></p><p>Other suggested reading will be posted at <a href="http://logic-forall.blogspot.com/">http://logic-forall.blogspot.com/</a></p>
+    syllabus: >
+      <ul>
+        <li>Lecture 1: Motivations for category theory. Definitions.</li>
+        <li>Lecture 2: Universal constructions.</li>
+        <li>Lecture 3: Monads and adjunctions.</li>
+        <li>Lecture 4: Category theory for functional programming.</li>
+        <li>Lecture 5: Natural language and Glue Semantics.</li>
+      </ul>
+
+    url:
+    professors:
+      - name: Valeria de Paiva
+        institution: Rearden Commerce
+        email: valeria.depaiva@gmail.com
+        url: http://www.cs.bham.ac.uk/~vdp/
+        photo: valeria-de-paiva.jpg
+        bio: >
+          Valeria de Paiva is a mathematician, logician and computer scientist based in Cupertino, CA. She works as senior research scientist at Rearden Commerce, Foster City, CA, using logic to improve e-commerce tools. Before that she was a research scientist at the Intelligent Systems Laboratory of PARC (Palo Alto Research Center), CA for many years (2000-2008) and a search analyst at Cuil, Inc. in Menlo Park, CA till 2010. She received her PhD in Mathematics from Cambridge University in 1988 for work on "Dialectica Categories", under Martin Hyland's supervision, and has ever since worked on logical approaches to computation, especially using Category Theory. She is on the editorial boards of "Theoria and Application of Categories", "Logical Methods in Computer Science" and of "Logica Universalis", as well as in the editorial board of the Springer series of books "Logic, Language and Information". She's an Honorary Research Fellow at the School of Computer Science, University of Birmingham, UK and taught recently at Stanford University and Santa Clara University.
+
+  - name: Formal ontology for linguistics and reasoning
+    slug: ontology-development
+    slot: 2
+    canceled: true
+    subject: philosophy
+    prerequisites: Basic computer science (some programming)
+    url: http://www.ontologyportal.org
+    syllabus: >
+      <ol>
+        <li>The first session will cover general topics in formal logic, symbol
+        grounding, rationale for choosing a particular logic.  Students will
+        also install and setup the Sigma system to prepare for the exercises in
+        the remainder of the week.</li><li>The second day will consist of a detailed
+        introduction to SUMO including the structure of its taxonomy, major
+        relations and domain ontologies.  Students will do some introductory
+        exercises.</li><li>The third day will cover more detailed exercises and focused
+        ontology development.</li><li>The fourth day will cover inference using the
+        Sigma system and the associated set of theorem provers that are
+        compliant with the TPTP and THF languages.</li><li>The fifth day will cover
+        translation of language to logic using SUMO and use of WordNet and
+        FrameNet with formal ontology.</li>
+      </ol>
+    description: >
+      <p>This course will cover formal ontology and its application to tasks in
+        deductive reasoning and computational linguistics.  Expressive formal
+        ontologies, which employ first or higher order logic can be used as a
+        more verifiable language than the ad-hoc languages used for expert
+        systems in previous decades.  It is also becoming clear that to solve
+        pragmatic issues in applying world knowledge to language understanding
+        tasks, formal languages, and repositories of world knowledge are needed.
+        This course addresses those applications.</p>
+      <p>The course will be based on the open source Suggested Upper Merged
+        Ontology (SUMO) and its associated open source Sigma knowledge
+        engineering environment.  SUMO is the largest free ontology that
+        includes substantial first and higher-order logic content.  The book
+        "Ontology: A Practical Guide" will serve as the textbook for the course.</p>
+      <p>Students completing the course will be prepared to start projects in
+        creating formal domain ontologies for adding pragmatics to computational
+        linguistic systems, design of large database schema and expert reasoning
+        and decision support systems.</p>
+    professors:
+      - name: Adam Pease
+        institution: Rearden Commerce
+        email: adampease@earthlink.net
+        url: http://www.adampease.org/professional
+        photo: adam-pease.jpg
+        bio: >
+          Adam Pease has led research in ontology, linguistics, and formal
+          inference, including development of the Suggested Upper Merged Ontology
+          (SUMO), the Controlled English to Logic Translation (CELT) system, the
+          Core Plan Representation (CPR), and the Sigma knowledge engineering
+          environment. Sharing research under open licenses, in order to achieve
+          the widest possible dissemination and technology transfer, has been a
+          core element of his research program and his products have been
+          downloaded by thousands of people around the world. He is the author of
+          the new book "Ontology: A Practical Guide"
+
+  - name: Intensionality
+    slug: intensionality
+    slot: 2
+    subject: semantics
+    description: >
+      The course is an introduction to the basic techniques needed to analyze intensional constructions in terms of possible world semantics. After a short characterization of the core phenomena (substitutivity in attitude reports, de re/de dicto, unspecificity), the method of extension and intension is developed and applied to account for them. At the end of the week a few foundational issues (framework dependence, granularity) will be discussed.
+    prerequisites: The course addresses students with a firm background in extensional (formal) semantics but little or no knowledge of intensional interpretation.
+    preparation: >
+      Heim &amp; Kratzer, Semantics in Generative Grammar, or any (part of a) textbook with a similar coverage of techniques and phenomena.
+    syllabus: >
+      <ul>
+        <li>Day 1:
+        <ul>
+        <li><em>Holes in Inference Patterns</em>: A first and tentative characterization of intensional contexts by failure of simple formalization patterns from predicate logic.</li>
+        <li><em>Extensions</em>: Introducing some basic assumptions (compositionally, characterization of meaning in terms of communicative function) and some simple extensions (names, descriptions, verbs).</li>
+        </ul>
+        </li>
+        <li>Day 2:
+        <ul>
+        <li><em>Extensions (ctd.)</em>: Introducing the compositional treatment of quantification and extensional types</li>
+        <li><em>Intensions</em>: Motivating and introducing (a) Logical Space as a model of linguistic content and (b) intensional types.</li>
+        </ul>
+        </li>
+        <li>Day 3:
+        <ul>
+        <li><em>Attitude Reports</em>: Introducing intensions as compositional contributions to extensions, thereby for solving substitution puzzles (Frege's strategy).</li>
+        </ul>
+        </li>
+        <li>Day 4:
+        <ul>
+        <li><em>Attitude Reports (ctd.)</em>: Motivating and introducing  (a) Logical Space as a model of content and (b) attitude verbs as restricted quantifiers of possible worlds (Hintikka  semantics).</li>
+        <li><em>Unspecific Objects</em>: Comparing different approaches to intensional transitive verbs.</li>
+        </ul>
+        </li>
+        <li>Day 5:
+        <ul>
+        <li><em>General Topics</em>: Focussing on propositionalism and the relativity/inscrutability of reference.</li>
+        </ul>
+        </li>
+      </ul>
+    files: >
+      <a href="/files/courses/zimmermann-handout-complete.pdf">Complete handout</a>
+    professors:
+      - name: Ede Zimmermann
+        institution: University of Frankfurt
+        email: tezimmer@uni-frankfurt.de
+        url: http://web.uni-frankfurt.de/fb10/zimmermann/
+        photo: ede-zimmermann.jpg
+        bio: >
+          Thomas Ede Zimmermann graduated from Konstanz University in 1987 and has since held academic positions at various universities. Since 1999, he is a professor of formal semantics in the linguistics department of Goethe University, Frankfurt. He has made various descriptive and foundational contributions to formal semantics. His main areas of research include intensional constructions, the theory of reference, and the formal aspects of semantic complexity.
+
+  - name: Surface Reasoning
+    slug: surface-reasoning
+    slot: 1
+    subject: logic
+    description: >
+      The problem of determining whether one sentence in a natural language intuitively follows from another -- in the sense that one could not accept the second without also being committed to the first -- would seem to require vast amounts of common sense and world knowledge to solve in general. However, a wide range of entailments seem to follow general patterns that arise from purely grammatical or surface considerations, e.g. from the way various functional, or logical, expressions combine with other words to make up complex expressions and sentences. Formal semantics has largely been concerned with characterizing, systematizing, and formalizing the subtleties of these compositional semantic phenomena, by translating fragments of natural language into familiar logical systems or by directly interpreting expressions model-theoretically. While entailment between sentences often serves a subsidiary role as a test or guide, characterizing entailment patterns per se is not typically the goal.<p>Over the past several decades, a number of researchers have taken up the challenge of defining logical systems whose syntax more closely mirrors that of natural language, e.g. by stating proof rules over (often syntactically parsed) natural language expressions themselves. This general project, sometimes called "natural logic", has been associated with a varied assortment of aims. First, some see the project as offering proposals for how phenomena studied in formal semantics could relate more closely to human psychology, e.g. dealing with mental representation and human inferential capacities. Second, a recent wave of exciting research has been motivated by the need to build efficient computational systems for reasoning about entailment between texts, the idea being that the top-down methodology of using surface information to guide inference may have advantages over full "deep level" interpretation in some cases. Finally, a third motivation is simply that the project gives rise to a number of interesting logical systems worthy of study in their own right. This course will survey a selection of this work, focusing on logical foundations, but also addressing applications and potential repercussions for philosophy and psychology of language, and computational semantics along the way.
+    prerequisites: Basic familiarity with logic and lambda notation should be sufficient. The course is intended to be introductory and widely accessible.
+    preparation: >
+      To get some sense for some of what the course will be about, one might take a look at the following surveys by Johan van Benthem and Larry Moss:
+      <ul>
+      <li><a href="http://www.illc.uva.nl/Publications/ResearchReports/PP-2008-05.text.pdf">http://www.illc.uva.nl/Publications/ResearchReports/PP-2008-05.text.pdf</a></li>
+      <li><a href="http://www.springerlink.com/content/n21258063023h317/fulltext.pdf">http://www.springerlink.com/content/n21258063023h317/fulltext.pdf</a></li>
+      </ul>
+    files: >
+      <ul>
+        <li><a href="/files/courses/icard-slides-1.pdf">Day 1: Slides</a></li>
+        <li><a href="/files/courses/icard-slides-2.pdf">Day 2: Slides</a></li>
+        <li><a href="/files/courses/icard-slides-3.pdf">Day 3: Slides</a></li>
+        <li><a href="/files/courses/icard-slides-4.pdf">Day 4: Slides</a></li>
+        <li><a href="/files/courses/icard-slides-5.pdf">Day 5: Slides</a></li>
+        <li><a href="/files/courses/icard-slides-moss.pdf">Larry Moss special lecture</a></li>
+      </ul>
+    url: http://www.stanford.edu/~icard/
+    professors:
+      - name: Thomas Icard
+        institution: Stanford University
+        email: icard@stanford.edu
+        url: http://www.stanford.edu/~icard/
+        photo: thomas-icard.jpg
+        bio: >
+          I am a Ph.D. student in Philosophy and Symbolic Systems at Stanford University. Up to now I have worked mostly in logic, though I am interested in all the areas represented at NASSLLI.
+
+  - name: Belief Revision Meets Formal Learning Theory
+    slug: belief-revision
+    slot: 3
+    subject: philosophy
+    description: "Please refer to the course site, below."
+    url: http://ninagierasimczuk.com/NASSLLI12/
+    professors:
+      - name: Nina Gierasimczuk
+        institution: University of Amsterdam
+        email: Nina.Gierasimczuk@gmail.com
+        url: http://staff.science.uva.nl/~ngierasi/
+        photo: nina-gierasimczuk.jpg
+        bio: >
+          <p>I obtained my PhD in 2010 from the Institute for Logic, Language and Computation (ILLC), University of Amsterdam, under the supervision of Johan van Benthem and Dick de Jongh. In my dissertation, titled "Knowing One's Limits. Logical Analysis of Inductive Inference" I explore the connections between formal learning theory and dynamic epistemic logic.</p>
+          <p>Currently, I am a Post-Doc researcher within The Logical Structure of Correlated Information Change Project (LogiCIC) at the Institute for Logic, Language and Computation (ILLC), University of Amsterdam. In 2011 I worked as a Post-Doc researcher within the Reasoning about Quantum Interaction Project at the Institute of Artificial Intelligence and Cognitive Engineering (ALICE), University of Groningen and also as a Post-Doc in The Curious Minds Project (Talentenkracht) at the University of Amsterdam.</p>
+
+  - name: Type Theory with Records for Natural Language Semantics
+    slug: type-theory
+    slot: 5
+    subject: semantics
+    description: >
+      We develop an integrated framework which addresses research issues in the semantics of dialogue, dialogue systems, logics of agents and linguistic work on spoken language.  We combine this with grammar, semantics (both lexical and phrasal) and principles of interaction. TTR (a version of type theory with records) is a framework which has pioneered an integrated formal treatment of interaction in language. The course will provide a practical introduction to semantic analysis using TTR, grounding its tools in empirical phenomena.
+    prerequisites: A previous introduction to linguistics including formal syntax and formal semantics would be useful.
+    preparation: >
+      <ul>
+        <li>Ginzburg, Jonathan. 2011. The interactive stance: Meaning for conversation. Oxford University Press. Chapters 1-2. (<a href="http://books.google.fr/books?id=W4WOWZxKWZAC&printsec=frontcover&hl=fr&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false">Google Books</a>)</li>
+        <li>Ginzburg, Jonathan and Raquel Fernandez. 2010. Computational models of dialogue. In Alex Clark, Chris Fox and Shalom Lappin (eds.) Handbook of Computational Linguistics and Natural Language Processing. Oxford: Blackwell. (<a href="https://1224881788223438059-a-1802744773732722657-s-sites.googlegroups.com/site/jonathanginzburgswebsite/publications/gf09.pdf">pdf</a>)</li>
+        <li>Cooper, Robin. 2010. Frames in formal semantics. In Hrafn Loftsson, Eiríkur Rögnvaldsson and Sigrún Helgadóttir (eds.) Advances in Natural Language Processing: Proceedings of the 7th International Conference on NLP, IceTAL 2010. Lecture Notes in Computer Science, 6233. Berlin: Springer Verlag. (<a href="https://sites.google.com/site/saicdproject/publications/publications/ffs-final.pdf?attredirects=0">pdf</a>)</li>
+        <li>Cooper, Robin. 2012. Type theory and semantics in flux. In Ruth Kempson, Nicholas Asher and Tim Fernando (eds.) Handbook of the Philosophy of Science. Philosophy of Linguistics, 14. General editors: Dov M. Gabbay, Paul Thagard and John Woods.  Amsterdam: Elsevier. (<a href="https://sites.google.com/site/saicdproject/publications/publications/ddl-final.pdf?attredirects=0">pdf</a>)</li>
+        <li>Also a course in Iyengar yoga or cycling at least once a week in downtown traffic, together with a careful study of the audiobook 44 Scotland Street (to deal better with the lecturers' accents.) </li>
+      </ul>
+    syllabus: >
+      <ul>
+        <li>Lecture 1. The interactive stance: basic desiderata for a semantic theory; A theory of events and situations: frames and lexical semantics<p>
+        The interactive stance to semantics moves to an analysis of semantics which can characterize the potential for misunderstanding, rejection, and correction. A theory of events and situations is developed which is related to Fillmore's theory of frames, the basis for a rich theory of lexical semantics.</li>
+        <li>Lecture 2. Grammar in TTR; Incremental context and content; Tense and aspect<p>
+        Grammars are introduced as assigning types to speech events. We show how the combination of frames and typing of speech events can be applied to a theory of tense and aspect related to Reichenbach's work on the relation between speech, event and reference times and more recent work by Tim Fernando on the analysis of events as strings of component events.</li>
+        <li>Lecture 3. A theory of abstract entities and illocutionary interaction: analysis in terms of dialogue game boards; Negation<p>
+        The semantic ontology is expanded to include abstract entities such as propositions, questions, and outcomes which underpin illocutionary interaction. This provides the background for an analysis of negation that combines aspects of classical, intuitionistic and situation semantics views.</li>
+        <li>Lecture 4. Unifying metacommunicative and illocutionary interaction; Generalized quantifiers and copredication<p>
+        We provide a unified theory of metacommunicative and illocutionary interaction on the basis of the notion of Austinian locutionary propositions. This provides a basis for describing various linguistic phenomena occuring during grounding and clarification interaction. Formal semantics has been traditionally concerned with questions concerning quantifiers such as 'every', 'most' and 'a few'.<p>
+        We will show how these are treated in TTR and how the treatment relates to cases of copredication (originally discussed by James Pustejovsky) where we seem to be able to refer to different aspects of the same object simultaneously, e.g., 'The lunch was delicious but took forever' where 'lunch' appears to be used to simultaneously refer to food and an event. A rich theory of context emerges from these analyses and this is important for showing how fragmentary utterances can be interpreted.</li>
+        <li>Lecture 5. Non-sentential utterances; Learning, coordination, multimodal interaction: describing interaction between parents and children during language acquisition<p>
+        We will sketch current work in progress which suggests that the approach can serve as a basis for a theory of learning and multimodal interaction, enabling the semantic description of various aspects of interaction between parents and children during language acquisition.</li>
+      </ul>
+    url:
+      # - https://sites.google.com/site/typetheorywithrecords/
+      # - https://sites.google.com/site/jonathanginzburgswebsite/
+      # - http://www.ling.gu.se/~cooper/records/
+      # - https://sites.google.com/site/saicdproject/
+      - https://sites.google.com/site/ttrnls
+    professors:
+      - name: Robin Cooper
+        institution: Göteborg University
+        email: cooper@ling.gu.se
+        url: http://www.ling.gu.se/~cooper/
+        photo: robin-cooper.jpg
+        bio: >
+          Robin Cooper has an undergraduate degree from the University of Cambridge and a PhD in Linguistics from the University of Massachusetts at Amherst.  He has taught at the following universities: Universität Freiburg, University of Texas at Austin, University of Massachusetts at Amherst, University of Wisconsin at Madison, Stanford University, Lund University, Edinburgh University and University of Gothenburg where he is currently Professor of Computational Linguistics.  He has held a Mellon Postdoctoral Fellowship and a Guggenheim Fellowship and has been a fellow at the Centre for Advanced Study in the Behavioral Sciences at Stanford.  He is a Fellow of the British Academy and the Royal Society of Arts and Sciences in Gothenburg and a member of Academia Europaea.  He holds an honorary doctorate from Uppsala.  His main research interests are semantics (both theoretical and computational), dialogue semantics and computational dialogue systems.
+
+      - name: Jonathan Ginzburg
+        institution: Université Paris-Diderot
+        email: yonatan.ginzburg@univ-paris-diderot.fr
+        url: https://sites.google.com/site/jonathanginzburgswebsite/
+        photo: jonathan-ginzburg.jpg
+        bio: >
+          Jonathan Ginzburg has held appointments at the Hebrew University of Jerusalem and King's College, London. He is currently Professor of Linguistics at Université Paris-Diderot (Paris 7). He is the author of Interrogative Investigations: the form, meaning, and use of English Interrogatives (jointly with Ivan A. Sag, CSLI 2001) and of The Interactive Stance: meaning for conversation (Oxford University Press, 2012). He is one of the founders and currently editor-in-chief of Dialogue and Discourse, one of the Linguistic Society of America's ejournals.
+
+  - name: Inquisitive Semantics
+    slug: inquisitive-semantics
+    slot: 3
+    subject: semantics
+    description: >
+      Inquisitive semantics develops a new notion of semantic meaning that directly reflects the use of language in exchanging information. The meaning of a sentence is not identified with its informative content, but rather with a proposal to update the common ground of a conversation in one or more ways. If a sentence proposes two or more alternative updates, then it is inquisitive, inviting other participants to choose between these alternative updates. If certain possible worlds are eliminated from the common ground by each of the proposed updates, then the sentence is informative. In this way, informative and inquisitive content are captured in a unified way, as two aspects of a single core notion of meaning. The aim of the course is to familiarize students and researchers with the framework, and to engage them in the further development of the logical-theoretical foundations, and the linguistic and computational applications. This is the perfect time for such engagement, since the fundamental building blocks of the framework are in place, the central research questions are clear, and the wide applicability of the framework can be illustrated with several concrete case studies. At the same time, many open questions remain and there is much room and demand for contributions from students and researchers in logic, linguistics, and computer science.
+    prerequisites: Propositional logic, first-order logic.
+    preparation: >
+      Up to date information and introductory papers about inquisitive semantics, and lecture notes for the course will be made available at the <a href="https://sites.google.com/site/inquisitivesemantics/courses/nasslli-2012">course website</a>.
+    syllabus: >
+      <ul>
+        <li>Monday:<p>
+        General introduction. Basics of inquisitive semantics for the language of propositional logic and the language of predicate logic. Applications to cross-linguistic natural language semantics.</li>
+        <li>Tuesday:<p>
+        Introduction to inquisitive pragmatics. Pragmatic principles and the logical-pragmatic notion of compliance. Treatment of implicatures as arising in an interactive process.</li>
+        <li>Wednesday:<p>
+        Extension of the basic system to model attentive content and the at-issue/non-at-issue distinction. Applications, including the semantics and pragmatics of might, free-choice puzzles, and evidentials.</li>
+        <li>Thursday:<p>
+        Extension of the basic system to model (pre)suppositions and different types of responses (support, acceptance, rejection, objection, etc). Non-standard analysis of conditional assertions and questions.</li>
+        <li>Friday:<p>
+        Compositional refinement of the framework in order to capture the semantic impact of phonological features. Application to the semantics of disjunctive questions with different intonation patterns.</li>
+      </ul>
+    files: >
+      <ul>
+        <li><a href="/files/courses/inquisitive-semantics-lecture-notes-sections-1-6.pdf">Notes: 1-6</a>
+        <li><a href="/files/courses/inquisitive-semantics-lecture-notes-sections-7-8.pdf">Notes: 7-8</a>
+      </ul>
+    url: https://sites.google.com/site/inquisitivesemantics/courses/nasslli-2012
+    professors:
+      - name: Jeroen Groenendijk
+        institution: University of Amsterdam
+        photo: jeroen-groenendijk.jpg
+      - name: Floris Roelofsen
+        institution: University of Amsterdam
+        email: floris.roelofsen@gmail.com
+        url: http://staff.science.uva.nl/~froelofs/
+        photo: floris-roelofsen.jpg
+        bio: >
+          Floris Roelofsen’s research is located at the intersection of logic, linguistics, and philosophy of language. He has been a visiting assistant professor at the University of Massachusetts Amherst, a research associate at the University of California Santa Cruz, and a research fellow at Harvard University. He is currently based at the Institute for Logic, Language, and Computation at the University of Amsterdam.
+
+  - name: Alternative Paradigms for Computational Semantics
+    slug: alternative-paradigms
+    slot: 4
+    subject: compling
+    url: http://www.dcs.kcl.ac.uk/staff/lappin/nasslli/nasslli2012/nasslli2012.html
+    description: >
+      The course will compare three main approaches to formal and computational semantics: model theory, proof theory, and distributional treatments of meaning (Vector Space Models). It will also consider ways of developing a probabilistic semantics for natural language. I will look at these approaches with respect to four main questions that an adequate theory of semantic representation must answer convincingly. First, how is lexical meaning integrated into the combinatorial procedures through which the interpretations of syntactically complex expressions are computed? Second, how is semantic entailment expressed in the theory? Third, how is the pervasive gradience of semantic properties captured? Finally, how can language learners acquire the class of representations that the theory makes available? These questions will be considered in the context of the guiding concern of computational semantics to develop robust, wide coverage systems for representing the semantic properties of natural languages, where these systems can be effectively learned and their representations of meanings can be efficiently computed.
+    prerequisites: >
+      An understanding of at least classical first-order logic and elementary set theory
+    syllabus: |
+      <ul>
+      <li>Class 1: Representing Meaning and Entailment
+      <li>Class 2: Fine Grained Intensional Theories
+      <li>Class 3: Property Theory with Curry Typing
+      <li>Class 4: Expressive and Computational Power
+      <li>Class 5: Probabilistic Semantics
+      </ul>
+    professors:
+      - name: Shalom Lappin
+        email: shalom.lappin@kcl.ac.uk
+        url: http://www.dcs.kcl.ac.uk/staff/lappin/
+        institution: King’s College London
+        photo: shalom-lappin.jpg
+        bio: >
+          I am Professor of Computational Linguistics at King's College London, and a Fellow of the British Academy. My main areas of
+          research and teaching are computational linguistics, formal and computational semantics, and the application of information theoretic methods to the the acquisition and representation of linguistic knowledge. Prior to arriving at King's in 1999 I taught at
+          the School of Oriental and African Studies, Tel Aviv University, University of Haifa, University of Ottawa, and Ben Gurion University of the Negev. I was also a Research Staff Member in the Natural Language Group of the Computer Science Department at the IBM T.J. Watson Research Center. I am currently working on probabilistic models of syntactic and semantic representation.
+
+
+  - name: Vagueness and Context
+    slug: vagueness-and-context
+    slot: 5
+    subject: philosophy
+    description: The aim of the class is to consider the role of the contextual dimension of vagueness and its implications for sorites paradoxes and the logic of vague predicates.
+    prerequisites: No prior knowledge of theories of vagueness is required, but some familiarity with formal semantics and predicate logic will be useful.
+    preparation: >
+      <ul>
+      <li>Fine, K. 1975. Vagueness, truth and logic. Synthese 30: 265–300.</li>
+      <li>Graff-Fara, Delia. 2000. Shifting sands: An interest-relative theory of vagueness. Philosophical Topics 28: 45-81.</li>
+      <li>Kamp, Hans 1981. The paradox of the heap. In U. Mönnich (ed.) Aspects of Philosophical Logic. Dordrecht, Reidel: 225–277.</li>
+      <li>Raffman, Diana. 1994. Vagueness without paradox. Philosophical Review 103: 41–74.</li>
+      <li>Raffman, Diana. 1996. Vagueness and context-sensitivity. Philosophical Studies 81:175-92</li>
+      <li>Sainsbury, R. M. 1990. Concepts without boundaries (Inaugural lecture: 6 November 1990). London: Department of Philosophy, King’s College London. Reprinted in Rosanna Keefe and Peter Smith (eds.) 1996. Vagueness: A reader. Cambridge MA: MIT Press. 251–264.</li>
+      <li>Smith, Nicholas J. J. 2006. Semantic regularity and the liar paradox. The Monist 89: 178-202.</li>
+      <li>Stanley, Jason. 2003. Context, interest relativity and the sorites. Analysis 63: 269–81.</li>
+      <li>Additional reading will be proposed in due course.</li>
+      </ul>
+    syllabus: >
+      <ul>
+      <li>Class 1: Definitions. Borderline cases. Sorites. Are vague predicates ineliminable? Can vagueness be precisely described? (Sainsbury 1990)</li>
+      <li>Class 2: The model theoretic paradigm: supervaluations (Fine 1975)</li>
+      <li>Class 3: Overview of ways in which context might be relevant: indexicality, effect of previous judgments (Kamp 1981, NJJ Smith 2006, Stanley 2003). Granularity and context</li>
+      <li>Class 4: Context determined by perceptual situation (Raffmann 1994, 1996, Graff-Fara 2000)</li>
+      <li>Class 5: What is the best account of the relation between context and vagueness?</li>
+      </ul>
+    files: >
+      <ul>
+        <li><a href="/files/courses/kamp-slides-1.pdf">Day 1-2: Revised slides (Kamp)</a>
+      </ul>
+    professors:
+      - name: Hans Kamp
+        institution: University of Texas at Austin
+        email: hanskamp@austin.utexas.edu
+        url: http://www.ims.uni-stuttgart.de/~hans/index.html.en
+        photo: hans-kamp.jpg
+        bio: >
+          Hans Kamp's work focuses on the question how human beings represent meaning and how those representations enable them to do the various things that they do with information. The founder of Discourse Representation Theory, and a leading figure in logic, linguistics, and the philosophy of language, Professor Kamp has written articles on tense logic, adjectives, vagueness, free choice permission, attitudes, and semantic representation that are considered classics in their areas. He is the author of From Discourse to Logic (Kluwer, with Uwe Reyle) and Thinking and Talking about Things (MIT Press, Jean Nicod Lectures).
+      - name: Mark Sainsbury
+        institution: University of Texas at Austin
+        email: marksainsbury@austin.utexas.edu
+        url: https://webspace.utexas.edu/rms9/www/
+        photo: mark-sainsbury.jpg
+        bio: >
+          Mark Sainsbury taught for several years at King’s College London before coming to Austin in 2002. His most recent book is jointly authored with Michael Tye (Philosophy, UT) and is due out in February 2012: Seven Puzzles of Thought and How to Solve Them: An Originalist Theory of Concepts (OUP).
+  - name: "Lambda: the ultimate syntax-semantics interface"
+    slug: lambda-the-ultimate
+    slot: 5
+    subject: compling
+    description: >
+      Day in, day out, the semanticist checks types and simplifies terms. Can the digital computer help with these calculations? In fact, modern programming languages offer exactly the modularity features that make it easy to try fragments out and scale them up. To show how, we express so-called extensible interpreters as functional programs and apply the technique to natural-language semantics and logic. Specifically, we work our way from the simply typed lambda calculus and a context-free grammar to CCG and to a dynamic and continuation treatment of quantification and anaphora. Striving to be comprehensible and informative to both linguists and programmers, we use the programming language Haskell without assuming specific knowledge of it.
+    prerequisites: None
+    preparation: >
+      <p>We will use the programming language Haskell without assuming specific knowledge of it. It will help if you could install &ldquo;the Haskell Platform&rdquo; on your computer ahead of time. You can download it at <a href="http://hackage.haskell.org/platform/">http://hackage.haskell.org/platform/</a></p><p>The installation seems simple for Windows and Linux; in particular, on Linux you may already find a package called &ldquo;haskell-platform&rdquo; ready to be installed. On the Mac, there is also a download available: <a href="http://hackage.haskell.org/platform/mac.html">http://hackage.haskell.org/platform/mac.html</a> See also <a href="http://www.haskell.org/haskellwiki/Mac_OS_X">http://www.haskell.org/haskellwiki/Mac_OS_X</a> specifically about Xcode. We plan to use the Haskell interpreter &ldquo;ghci&rdquo; only, so chances are you need not worry about the "SDK".</p>
+    syllabus: >
+      <p>Our plan for the course is to talk about syntax (context-free grammars, or CFG), semantics (Simple Theory of Types, or lambda-calculus) and a calculational way of relating the two. We start with a trivial fragment and show how to write derivations and re-interpret them in various ways: to spell them out or to compute a logical formula. We grow our fragments and interpreters in the second lecture: we add quantification, anaphora, subject relative clauses to our natural-language fragment; we add state to the semantic calculus; we add the interpretation of a sentence as an imperative program performing an information &ldquo;update&rdquo;. We explain de Groote's dynamic logic analysis of donkey sentences.</p><p>Schedule:<ol><li>Basic fragments for a context-free grammar</li><li>Treating the simply typed lambda calculus as an object language</li><li>Approaches to quantification</li><li>Dynamic logic and donkey anaphora</li><li>Scope and inverse linking in continuation semantics</li></ol></p>
+    url:
+      - "http://okmij.org/ftp/gengo/NASSLLI10/course.html"
+      - "http://okmij.org/ftp/gengo/NASSLLI10/"
+    files: >
+      <ul>
+        <li><a href="/files/courses/lambda-slides-1.pdf">Day 1: Slides</a>
+      </ul>
+    professors:
+      - name: Chung-chieh Shan
+        institution: >
+          Cornell University, University of Tsukuba
+        email: ccshan@post.harvard.edu
+        url: http://www.cs.rutgers.edu/~ccshan/
+        photo: ken-shan.jpg
+        bio: >
+          Chung-chieh Shan received his PhD in computer science from Harvard University in 2005. He then joined the faculty of Rutgers University in the department of computer science and the center of cognitive science. Since 2011, he has been visiting the department of linguistics at Cornell University and the department of computer science at the University of Tsukuba.
+      - name: Oleg Kiselyov
+        email: oleg@okmij.org
+        url: http://okmij.org/ftp/
+        photo: oleg-kiselyov.jpg
+        bio: >
+          Oleg Kiselyov is a Computer Scientist in Monterey, CA. He is interested in language semantics: what phrases may denote, which transformations preserve the meaning and how to apply them systematically. He is particularly interested in binding, quantification, quotation, anaphora and non-determinism. As a computer scientist, by 'languages' he mainly meant formal (programming) languages &mdash; but not exclusively.
+  - name: An Introduction to Hybrid Logic
+    slug: intro-hybrid-logic
+    slot: 5
+    subject: logic
+    description: >
+      <p>In this course I will motivate and introduce hybrid logic, a form of modal logic in which reference to worlds (or times, or epistemic states, or ordinary individuals, or...) is possible. The key idea traces back to work by Arthur Prior, the inventor of tense logic, from the 1960s, and (in the very last lecture) I will discuss some of Prior's concerns. But the main aim of the course  is to progressively introduce the main components of hybrid logic, to see how they all fit together, and to learn how to work with them both semantically and proof theoretically.</p>
+      <p>This is a course in formal logic, and so I will be presupposing that participants have had some prior exposure to logic (propositional logic, first-order logic) and are comfortable with formal techniques such as inductive definitions. But I am aiming to make the course relatively self-contained. If you have encountered modal logic before, you should not have any difficulties with this course. But even if you haven't, I hope to make the main line of development accessible. The key ideas are remarkably straightforward, and I will try to present them in a way which makes this clear.</p>
+    prerequisites: Basic logic and enthusiasm
+    preparation: >
+      Here are two papers, both of  which  provide reasonably accessible paths into hybrid logic:
+      <ul>
+        <li>Representation, Reasoning, and Relational Structures: a Hybrid Logic Manifesto, by Patrick Blackburn. Logic Journal of the IGPL, 8(3), 339-625, 2000.</li>
+        <li>Arthur Prior and Hybrid Logic, by Patrick Blackburn. Synthese, 150, 329--372, 2006.</li>
+      </ul>
+    syllabus: >
+      This lecture schedule is tentative, but at least the titles should give some indication of the topics I wish to discuss, and the rough order in which I wish to discuss them:
+      <ul>
+        <li>Lecture 1: From modal logic to hybrid logic</li>
+        <li>Lecture 2: Downarrow, or, x marks the spot</li>
+        <li>Lecture 3: Going first-order</li>
+        <li>Lecture 4: Indexicality and higher-order approaches</li>
+        <li>Lecture 5: And Prior to that...</li>
+      </ul>
+    files: >
+      <ul>
+        <li><a href="/files/courses/blackburn-slides-1.pdf">Day 1: Slides</a>
+        <li><a href="/files/courses/blackburn-slides-2.pdf">Day 2: Slides</a>
+      </ul>
+    professors:
+      - name: Patrick Blackburn
+        institution: University of Roskilde
+        email: patrickb@ruc.dk
+        url: http://www.patrickblackburn.org/
+        photo: patrick-blackburn.jpg
+        bio: >
+          After taking my Bachelors degree in New Zealand (at the University of Waikato) I studied at Sussex University in England and then did my PhD at the University of Edinburgh in Scotland. By that stage my interest in logic (especially modal logic) and language (especially semantic and pragmatics) had gelled and I moved on to teaching and research positions in the Netherlands, Germany and France. My new home is the Philosophy Department at Roskilde University in Denmark. Logic (yes, still modal) and  language (yes, still natural) remain my main interests, though epistemology and Philosophy of Mind are catching up fast.
+
+  - name: "Meaning as Use: Indexicality, Expressives, and Self-Reference"
+    slug: meaning-as-use
+    slot: 2
+    subject: philosophy
+    description: >
+      <p>The slogan 'meaning is use', usually attributed to Wittgenstein,
+        captures the insight that for many expressions of natural language,
+        semantic theory should state rules of use rather than-- or in addition
+        to-- specifying the concept or logical translation associated with the
+        expression.   This workshop aims to explore current and evolving ideas
+        about this use-dependent aspect of language and its connections with
+        other domains.  For indexicals such as 'I', 'you', and 'now', "the
+        referent is dependent on the context of use and the word provides a
+        rule which determines the referent in terms of certain aspects of the
+        context" (Kaplan).  Self-reference is a special case of indexicality
+        that presents its own set of puzzles (Kamp, Anand), and also bears
+        connections to expressive content and evidentials. Expressives like
+        'damn' and 'bastard' convey important affective content in a special
+        way that differs from the presentation of descriptive content (Potts).
+         Evidential markers indicate the source or nature of the evidence for
+        the information in a sentence in a way that is closely tied to
+        self-ascription (McCready, Murray).  In this workshop we explore a
+        variety of topics and the connections between them, with presentations
+        and discussion by leading contributors to this field.</p>
+      <hr />
+      <h2 id="mccready">Monday, June 18: Meaning as Use: Problems and Prospects</h2>
+      <img class="float-left" style="margin: 0px 20px 10px 0px" src="/images/150/eric-mccready.jpg" />
+      <img class="float-left" style="margin: 0px 20px 10px 0px" src="/images/150/steve-wechsler.jpg" />
+      <h3>Eric McCready (Aoyama Gakuin University)<br>Stephen Wechsler (The University of Texas)</h3>
+      <p>In this talk we will begin by introducing the problems addressed in
+        this workshop, as laid out in the general workshop description above.
+        Then we will focus on some specific issues of current interest:
+        self-ascription in conjunct/disjunct systems, where verbs in first
+        person declaratives or second person interrogatives bear a special
+        marking; underspecified emotive content and how it is interpreted; and
+        evidential marking.</p>
+      <h4><a href="/files/courses/workshop-final.pdf">Slides</a></h4>
+      <h4>Readings:</h4>
+      <ul>
+      <li>Kripke, Saul. 2011. “The First Person.” In Philosophical Troubles: Collected Papers, 292–321. New York: Oxford University Press. <a href="https://sites.google.com/site/2011personindexicals/documen/First%20Person.pdf">https://sites.google.com/site/2011personindexicals/documen/First%20Person.pdf</a>
+
+      <li>McCready, Eric 2011. What is Evidence in Natural Language? Manuscript, Aoyama Gakuin University. <a href="http://semanticsarchive.net/Archive/TAyYTI1N/">http://semanticsarchive.net/Archive/TAyYTI1N/</a>
+
+      <li>Potts, Christopher. 2007. “The Expressive Dimension.” Theoretical Linguistics 33 (2): 165–198. <a href="http://www.stanford.edu/~cgpotts/papers/potts-expressives06.pdf">http://www.stanford.edu/~cgpotts/papers/potts-expressives06.pdf</a>
+
+      <li>Wechsler, Stephen. 2010. “What ‘You’ and ‘I’ Mean to Each Other: Person Indexicals, Self-ascription, and Theory of Mind.” Language 86 (2): 332–365. <a href="https://sites.google.com/site/wechslerpublications/publication-downloads/Wechsler-YouAndI-Language-Feb-2010-3.pdf">https://sites.google.com/site/wechslerpublications/publication-downloads/Wechsler-YouAndI-Language-Feb-2010-3.pdf</a>
+
+      <li>Wechsler, Stephen 2012. Self-Ascription in Conjunct-Disjunct Systems. Manuscript, University of Texas, Austin. <a href="https://sites.google.com/site/wechslerpublications/publication-downloads/WEC3.pdf">https://sites.google.com/site/wechslerpublications/publication-downloads/WEC3.pdf</a>
+
+      <li>Kaplan, David 2004. The Meaning of ‘Ouch’ and ‘Oops.’ Howison Lecture in Philosophy, UC Berkeley, August 2004.<br>
+      (transcript: <a href="https://sites.google.com/site/2011personindexicals/documen/Kaplan%2C1997-TheMeaningofOuchandOops.pdf">https://sites.google.com/site/2011personindexicals/documen/Kaplan%2C1997-TheMeaningofOuchandOops.pdf</a>)<br>
+      <p><center><iframe width="420" height="315" src="http://www.youtube.com/embed/iaGRLlgPl6w" frameborder="0" allowfullscreen></iframe></center>
+      </ul>
+      <hr style="clear: right" />
+      <h2 id="kamp">Tuesday, June 19: Mental Indexicals and Linguistic Indexicals</h2>
+      <img class="float-left" style="margin: 0 20px 10px 0" src="/images/150/hans-kamp.jpg" />
+      <h3>Hans Kamp (The University of Texas &amp; Universität Stuttgart)</h3>
+      <p>In this talk we will assume (i) that mental representation of content
+        generally involves an ‘indexical’ singular term ‘n’, which represents
+        the ‘psychological present’, and (ii) that when the thought is a
+        self-ascription (a ‘thought de se’), its representation also involves
+        an ‘indexical’ singular term ‘i’, representing the self.
+      <p>The occurrence of ‘i’ in the representation of a thought that a
+        speaker wants to express in words licenses her use of the first person
+        pronoun ‘I’; but her use of ‘I’ will produce in her addressee the
+        representation of a de re ascription to her. (‘you’ produces
+        discrepancies of the opposite kind; its use is licensed when the
+        speaker puts a thought into words that is a de re ascription to the
+        addressee, but will provoke the addressee into constructing the
+        representation of a self-ascription.)
+      <p>In a somewhat analogous way, the presence of ‘n’ in the mental
+        representation of a speaker guides her choice of tenses and temporal
+        adverbs, but the temporal information carried by these sentence
+        elements can be reconverted to the same representational form that
+        gave rise to them: speaker and addressee share their psychological
+        present (at least in face-to-face conversation) and can represent it
+        using the same forms.
+      <p>The interactions between the mental indexicals ‘i’ and ‘n’ on the one
+        hand and the linguistic indexicals ‘I’, ‘you’ and the tenses and
+        temporal adverbials on the other merit careful scrutiny. This is true
+        in particular when the thoughts that are being communicated between
+        speaker and addressee involve nested attitude attributions – as when
+        the speaker thinks, and ventures to say to the addressee, that she
+        thinks that he does not like her.
+      <p>The talk will present the forms of the representations, discuss the
+        ways in which these representations can be converted into words and in
+        which those words can in their turn be reconverted into mental
+        representations by the recipient, with special attention to the nested
+        embeddings mentioned above.
+      <h4>Reading:</h4>
+      <ul>
+      <li>Hans Kamp 2011. '<a href="/files/kamp_2011.pdf">Representing De Se Thoughts and their Reports.</a>' Manuscript, University of Stuttgart and University of Texas at Austin.
+      </ul>
+      <hr />
+      <h2 id="anand">Wednesday, June 20: Remembering, Imagining, and De Se, Revisited</h2>
+      <img class="float-left" style="margin: 0 20px 10px 0" src="/images/150/pranav-anand.jpg" />
+      <h3>Pranav Anand (University of California at Santa Cruz)</h3>
+      <p>The structure of imagistic attitudes like memory and imagination has received a great deal of attention in philosophy.  For example, Berkeley (1710) and Nagel (1974) asked whether there are limits to our imaginative capacities and Williams (1973) asked if such imagistic experiences have an explicit 'perspective' or 'self' that orients the perception or pseudo-perception.</p>
+      <p>A linguistic question that arises is whether such perspectival information affects the truth conditions of ascriptions of memory and imagination. Vendler (1982) and Higginbotham (2003) explicitly say yes, focusing on examples with and without PRO, such as Vendler's 'I imagined swimming in the ocean' and 'I imagined myself swimming in the ocean'.</p>
+      <p>In this talk, I will argue that whatever perspectival distinctions we may wish to make in imagistic attitudes, they do not map cleanly onto obligatorily de se attitudes. Rather, I will argue that perspective arises either from the context-dependent nature of the expressions in question or constraints that imagistic experiences themselves bring to the table.</p>
+      <h4><a href="/files/courses/anand-slides.pdf">Slides</a></h4>
+      <h4>Readings</h4>
+      <ul>
+      <li><a href="https://sites.google.com/site/2011personindexicals/documen/Anand-2011.pdf">Anand, Pranav. 2011. Suppositional projects and subjectivity. ms. UCSC.</a></li>
+      <li><a href="https://sites.google.com/site/2011personindexicals/documen/Higginbotham-2003.pdf">Higginbotham, James. 2003. Remembering, Imagining, and the First Person. In Epistemology of language. Clarendon Press.</a></li>
+      <li>Berkeley, George (1710/1975), The Principles of Human Knowledge (London:Everyman).</li>
+      <li>Nagel, Thomas. 1974. What is it like to be a bat? Philosophical Review 83:435–50.</li>
+      <li>Vendler, Zeno. 1982. Speaking of imagination. In Language, mind, and brain, 35–43.</li>
+      </ul>
+      <hr style="clear: left" />
+      <h2 id="murray">Thursday, June 21: The Indexical Component of Evidentiality</h2>
+      <img class="float-left" style="margin: 0 20px 10px 0" src="/images/150/sarah-murray.jpg" />
+      <h3>Sarah Murray, Cornell University</h3>
+      <p>In this talk I discuss the indexical properties of evidential markers and how they compare to other indexicals. Based on this comparison, I argue that there are two kinds of indexical expressions found in natural language: pure indexicals and anaphoric indexicals. Pure indexicals, after Kaplan 1978, are exemplified by first person pronouns in English and Cheyenne (Algonquian: Montana). Anaphoric indexicals are exemplified by the reportative evidential in Cheyenne, roughly similar to the evidential adverb reportedly in English. Like the first person pronouns, both the Cheyenne reportative and English reportedly are anchored to the speaker in declarative sentences, discourse initially and discourse internally.  For all of them, a change in the speaker affects the content of the sentence. However, in questions, the Cheyenne reportative and English reportedly are anchored to the addressee, unlike the first person pronouns. Examples such as evidentials in questions show that despite the strong similarities between first person pronouns and evidentials, they cannot be represented in exactly the same way. At the same time, their strong overlap must be accounted for.
+      <p>This talk will also present an analysis of these two different kinds of indexicals where pure indexicals are analyzed a la Kaplan 1978 as referring to the context of utterance, represented by the speech event. The first person pronoun, for example, refers to the agent of the speech event. Anaphoric indexicals are analyzed as referring to the currently topical event. By default, in unembedded, declarative cases, the currently topical event is the speech event, the agent of which is the speaker. However, the topical event can change, depending on particular constructions in particular languages, yielding a restricted set of other individuals that the anaphoric indexicals can refer to. A formalization of this analysis is given in an update semantics with sequence based anaphora. This analysis accounts for the fact that by default anaphoric indexicals and pure indexicals refer to the same individuals. However, in questions or embedded cases, when the topical event changes, they refer to different individuals. In addition, this analysis accounts for the fact that Cheyenne reportatives are limited to secondhand reports.
+      <h4>Readings:</h4>
+      <ul>
+      <li>Murray, Sarah. 2010. <a href="http://conf.ling.cornell.edu/sem/Evidentials-and-Questions-in-Cheyenne.pdf">Evidentials and Questions in Cheyenne.</a> In Suzi Lima (ed.), Proceedings of SULA 5: Semantics of Under-Represented Languages in the Americas. Amherst, MA: GLSA Publications.
+      </ul>
+      <h4>Optional Readings:</h4>
+      <ul>
+      <li>Bittner, Maria. To appear. <a href="http://www.rci.rutgers.edu/~mbittner/bitt12_sula7.pdf">Perspectival discourse referents for indexicals.</a> Proceedings of SULA 7.
+      <li>McCready, Eric. 2007. <a href="http://semanticsarchive.net/Archive/DY2ZWVhZ/contextshift.pdf">Context shifting in questions and elsewhere.</a> In Estela Puig Waldmüller (ed.), Proceedings of Sinn und Bedeutung11, Barcelona: Universitat Pompeu Fabra.
+      </ul>
+      <hr />
+      <h2 id="acton">Friday, June 22: The latent affective meaning of demonstratives</h3>
+      <img class="float-left" style="margin: 0 20px 10px 0" src="/images/150/eric-acton.jpg" />
+      <img class="float-left" style="margin: 0 20px 10px 0" src="/images/150/christopher-potts.jpg" />
+      <h3>Eric Acton (Stanford)<br> Christopher Potts (Stanford) </h3>
+      <p>Lakoff (1974) argues that affective demonstratives in English are
+          markers of solidarity and shared sentiment, and that they can in turn
+          be used to foster, reinforce, or tacitly insist upon a sense of common
+          ground between a speaker and her audience.  We will present
+          quantitative corpus evidence that these affective uses are prevalent
+          and robust, not only in English, but also in German and Japanese, and
+          that similar effects are found with personal pronouns.  The question
+          then arises of where these affective, social meanings come from.  Do
+          they represent a semantic ambiguity, or can they be derived
+          pragmatically?  We will argue for a pragmatic approach.  Specifically,
+          we will seek to show that affective uses of this sort are expected on
+          the theory of Elbourne (2008), in which both personal pronouns and
+          demonstratives require the speaker and hearer to coordinate on
+          contextually supplied properties and referential indices.  These
+          requirements draw on, and hence evoke the common ground that exists
+          between speaker and hearer.
+      <h4><a href="/files/courses/acton-potts-nasslli12-dems.pdf">Slides</a></h4>
+      <h4>Readings:</h4>
+      <ul>
+      <li>Elbourne, Paul. 2008. Demonstratives as individual concepts.
+        Linguistics and Philosophy 31(4): 409–466.
+      <li>Davis, Christopher and Christopher Potts. 2010. Affective
+        demonstratives and the division of pragmatic labor. In Maria Aloni,
+        Harald Bastiaanse, Tikitu de Jager, and Katrin Schulz, eds., Logic,
+        Language, and Meaning: 17th Amsterdam Colloquium Revised Selected
+        Papers, 42-52. Berlin: Springer.
+      <li>Liberman, Mark. 2008. <a href="http://languagelog.ldc.upenn.edu/nll/?p=674">Affective demonstratives.</a>
+      <li>Liberman, Mark. 2010. <a href="http://languagelog.ldc.upenn.edu/nll/?p=2240">Sarah Palin's distal demonstratives.</a>
+      </ul>
+      <h4>Optional Readings:</h4>
+      <ul>
+      <li>Lakoff, Robin. 1974. Remarks on 'this' and 'that'. In Proceedings of
+        the Chicago Linguistics Society 10, 345–356. Chicago, IL: Chicago
+        Linguistic Society.
+      <li>Potts, Christopher and Florian Schwarz. 2010. Affective 'this'. Linguistic Issues in Language Technology 3(5):1-30.
+      </ul>
+    prerequisites:
+    preparation:
+    url:
+    hide_professors: true
+    professors:
+      - name: Stephen Wechsler
+        institution: University of Texas at Austin
+        email: wechsler@mail.utexas.edu
+        url: http://uts.cc.utexas.edu/~wechsler/
+        photo: steve-wechsler.jpg
+      - name: Eric McCready
+        institution: Aoyama Gakuin University
+        email: mccready@cl.aoyama.ac.jp
+        photo: eric-mccready.jpg
